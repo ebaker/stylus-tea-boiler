@@ -10,6 +10,9 @@ app = express()
 app.set 'view engine', 'coffee'
 app.engine 'coffee', teacup.renderFile
 
+# bower static files
+app.use '/lib', express.static("#{process.cwd()}/bower_components")
+
 # connect-assets for stylus+nib
 assets().environment.getEngines('.styl').configure (s) -> s.use(nib())
 app.use assets()
