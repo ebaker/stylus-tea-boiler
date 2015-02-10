@@ -1,6 +1,9 @@
 # stylus-tea-boilder
 
-A [coffeescript](http://coffeescript.org/) environment using [teacup](https://github.com/goodeggs/teacup) for html templating and [stylus](http://learnboost.github.io/stylus/) for CSS-preprocessing served over [express](https://github.com/strongloop/express).
+A [coffeescript](http://coffeescript.org/) environment using
+ [teacup](https://github.com/goodeggs/teacup) for html templating and
+ [stylus](http://learnboost.github.io/stylus/) for CSS-preprocessing served over
+ [express](https://github.com/strongloop/express).
 
 ## Requirements
 ```sh
@@ -17,6 +20,11 @@ $ coffee server.coffee
 ```
 
 ## Structure
+This project is setup for a single web application.
+server.coffee serves the index view for the / endpoint. 
+Client assets are written in coffeescript and stylus and compiled
+through connect-assets via express.
+
 #### assets (client)
  - js directory containes coffee files for controller logic
  - css directory containes styl file
@@ -34,6 +42,7 @@ $ coffee server.coffee
  - [express](https://github.com/strongloop/express)
  - [stylus](http://learnboost.github.io/stylus/)
  - [nib](https://github.com/tj/nib) - stylus CSS3 mixin plugin
+ - [connect-assets](https://github.com/adunkman/connect-assets)
 
 License
 ----
