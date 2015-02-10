@@ -46,7 +46,7 @@ through connect-assets via express.
  - [nib](https://github.com/tj/nib) - stylus CSS3 mixin plugin
  - [connect-assets](https://github.com/adunkman/connect-assets)
  - [bower](http://bower.io/)
- - [jQuyer](http://jquery.com)
+ - [jQuery](http://jquery.com)
 
 License
 ----
