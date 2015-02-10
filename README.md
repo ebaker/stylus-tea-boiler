@@ -8,6 +8,7 @@ A [coffeescript](http://coffeescript.org/) environment using
 ## Requirements
 ```sh
 $ npm install -g coffee-script
+$ npm install -g bower 
 ```
 
 ## Get Started
@@ -15,7 +16,8 @@ $ npm install -g coffee-script
 $ git clone https://github.com/ebaker/stylus-tea-boiler.git
 $ cd stylus-tea-boiler
 $ npm install
-$ vim assets/css/app.styl
+$ bower install
+$ vim assets/js/app.js
 $ coffee server.coffee
 ```
 
@@ -43,6 +45,8 @@ through connect-assets via express.
  - [stylus](http://learnboost.github.io/stylus/)
  - [nib](https://github.com/tj/nib) - stylus CSS3 mixin plugin
  - [connect-assets](https://github.com/adunkman/connect-assets)
+ - [bower](http://bower.io/)
+ - [jQuyer](http://jquery.com)
 
 License
 ----
