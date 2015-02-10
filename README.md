@@ -16,8 +16,9 @@ $ git clone https://github.com/ebaker/stylus-tea-boiler.git
 $ cd stylus-tea-boiler
 $ npm install
 $ bower install
+$ grunt build
+$ grunt
 $ vim assets/js/app.js
-$ coffee server.coffee
 ```
 
 ## Structure
