@@ -34,7 +34,7 @@ through grunt and served via express.
 
 #### server.coffee
  - express server
- - grunt compiles and serves coffee and styl files as js and css
+ - grunt compiles coffee and styl files as js and css
 
 #### views (server)
  - server views searched by express
