@@ -53,6 +53,7 @@ through grunt and served via express.
  - [connect-assets](https://github.com/adunkman/connect-assets)
  - [bower](http://bower.io/)
  - [jQuery](http://jquery.com)
+ - [grunt](http://gruntjs.com/)
 
 License
 ----
