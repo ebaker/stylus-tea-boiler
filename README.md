@@ -7,9 +7,7 @@ A [coffeescript](http://coffeescript.org/) environment using
 
 ## Requirements
 ```sh
-$ npm install -g coffee-script
-$ npm install -g bower 
-$ npm install -g nodemon
+$ npm install -g coffee-script bower nodemon
 ```
 
 ## Get Started
