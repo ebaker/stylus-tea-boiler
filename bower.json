@@ -1,0 +1,22 @@
+{
+  "name": "stylus-tea-boiler",
+  "version": "0.1.0",
+  "authors": [
+    "Eliot Baker <eliotbaker@gmail.com>"
+  ],
+  "description": "coffeescript teacup stlus express",
+  "main": "server.coffee",
+  "license": "MIT",
+  "homepage": "http://github.com/ebaker/stylus-tea-boiler",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.3"
+  }
+}
